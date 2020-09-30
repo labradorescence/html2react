@@ -11,7 +11,7 @@ remove all the logo content between the <div className="App"> and </div>
 
 5. style to styles
 
-6.`styles="enable-background:new 0 0 150 118;"` =>
+6. `styles="enable-background:new 0 0 150 118;"` =>
      `style={{enableBackground:'new 0 0 150 118';}}`
      
      (1) camelCase enable-background => enableBackground
