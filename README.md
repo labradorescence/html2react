@@ -13,11 +13,11 @@ remove all the logo content between the <div className="App"> and </div>
 
 6.`styles="enable-background:new 0 0 150 118;"` =>
      `style={{enableBackground:'new 0 0 150 118';}}`
-      -camelCase enable-background => enableBackground
-      -"" => {{}}
-      -make it string 
+     
+     (1) camelCase enable-background => enableBackground
+     (2) "" => {{}}
+     (3) make it string 
       
 7.  `<img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith"></img>`
 =>
 `<img src={require("./img/work-metiew-smith.jpg")} alt="Metiew and Smith"></img>`
-      
